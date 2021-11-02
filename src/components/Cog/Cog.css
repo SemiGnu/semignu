@@ -1,12 +1,10 @@
-@media (prefers-reduced-motion: no-preference) {
-    .spinning-cog {
-        animation: cog-spin infinite 20s linear reverse;
-        height: min(80vh, 80vw);
-        width: min(80vh, 80vw);
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        user-select: none;
-    }
+.spinning-cog {
+    animation: cog-spin infinite 20s linear reverse;
+    height: min(80vh, 80vw);
+    width: min(80vh, 80vw);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 @keyframes cog-spin {
