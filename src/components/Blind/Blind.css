@@ -1,0 +1,24 @@
+div.blind {
+    background-color: white;
+    height: 100vh;
+    width: 50vw;
+    position: absolute;
+    top: 0px;
+    left: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img.gnu {
+    position: absolute;
+    left:0px;
+    height: min(80vh, 80vw);
+    width: min(80vh, 80vw);
+    margin-left: max(-40vh, -40vw);
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
